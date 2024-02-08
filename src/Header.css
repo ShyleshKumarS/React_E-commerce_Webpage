@@ -1,0 +1,126 @@
+.header {
+    display: flex;
+    height: 60px;
+    background-color: rgb(29, 28, 28);
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header__logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;    
+}
+
+.header__search {
+    display: inline-flex;
+    height: 35px;
+    align-items: center;
+    margin-top: 13px;
+    flex: 1;
+    
+}
+.header_searchInput {
+    height: 30px;
+    background-color: rgb(249, 245, 245);
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    
+}
+.header__searchIconImg{
+    align-items: center;
+    justify-content: center;
+}
+.header__searchIcon{ 
+    padding: 5px;
+    background-color: orange;
+    height: 20px !important;    
+    align-items: center;    
+    justify-content: center;    
+}
+.header_nav {
+    display: flex;
+    margin-top: 10px;
+}
+
+.header_options{
+    display: grid;
+    color: antiquewhite;
+    margin-right: 10px;
+    padding-left: 5px;
+}
+
+.header_optionLineOne{
+    text-align: left;
+}
+
+.header_optionLineTwo{
+    text-align: right;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+
+.headerBasketOptions{
+    display: inline-flex;
+    align-items: center;
+}
+.header_basketIcon,.header_optionLineTwo.header_optionLineTwo {
+    color: antiquewhite;
+    margin-right: 10px;
+}   
+.hamburger{
+    display: none;
+}
+
+/* Add this media query to hide the menu on smaller screens */
+@media (max-width: 768px) {
+    .header_nav {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      align-items: center;
+      background-color: rgb(29, 28, 28);
+      mask: linear-gradient(rgba(0.1, 0, 0, 0.8),rgba(1,0,0,0.9));
+      color: antiquewhite;
+      padding: 10px;
+      text-align: center;
+      transition: transform 0.3s ease-in-out;
+      transform: translateX(100%);
+    }
+  
+    .menu-open .header_nav {
+      transform: translateY(0);
+    }
+  
+    .header_options {
+      margin: 0;
+      padding: 10px 0;
+      width: 100%;
+    }
+  
+    .header_optionLineOne,
+    .header_optionLineTwo {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 5px;
+    }
+  
+    .hamburger {
+      display: block;
+      color: antiquewhite;
+      font-size: 30px;
+      margin: 10px;
+      cursor: pointer;
+    }
+  }
+  
