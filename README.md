@@ -20,3 +20,9 @@ Contributions are welcome! Since this project is still in the development stage,
 This project is licensed under the MIT License.
 
 Feel free to customize the description, features, technologies, installation instructions, and other sections to match the specifics of your project. Good luck with your Amazon clone website project!
+
+## ScreenShots
+
+![image](https://github.com/ShyleshKumarS/React_E-commerce_Webpage/assets/146239672/e8d4d597-7b8e-4fd4-9738-e610cc091638)
+
+![image](https://github.com/ShyleshKumarS/React_E-commerce_Webpage/assets/146239672/6b56de65-1980-4d4e-8e99-2ea80a513f93)
