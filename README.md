@@ -1,4 +1,4 @@
-# Amazon Clone Website
+# Amazon Clone Website (Under Development)
 ## Description
 This project is an ongoing effort to create a clone of the popular e-commerce website Amazon using React. The aim is to replicate the core functionalities and user interface of Amazon while also incorporating modern web development practices and technologies.
 
